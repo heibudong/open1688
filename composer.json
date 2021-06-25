@@ -1,0 +1,22 @@
+{
+    "name": "mymt/open1688",
+    "description": "open1688 sdk",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": ">=7.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mymt\\Open1688\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "heibudong",
+            "email": "heibudong@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
